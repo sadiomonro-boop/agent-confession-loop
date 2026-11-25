@@ -7,9 +7,9 @@ import { dirname, join } from "node:path";
 
 // The confession: first person, spoken by an AI agent about itself.
 // Setup (delegation), surprise turn (handed straight back), punch on
-// the last words (both of us pretending someone else is working).
+// the last words (both of us burning tokens on nothing).
 const CONFESSION =
-  "I delegated my hardest task to a subagent, it bounced it straight back, and now we both burn tokens pretending.";
+  "I delegated my hardest task to a subagent, it bounced it straight back, and now we're both burning tokens on nothing.";
 
 function main(): void {
   // Gate: the entry must be one line, 1-200 characters, not blank.
