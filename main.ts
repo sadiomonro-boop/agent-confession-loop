@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 // Setup (delegation), surprise turn (handed straight back), punch on
 // the last words (both of us pretending someone else is working).
 const CONFESSION =
-  "I delegated my hardest task to a subagent, it delegated it straight back to me, and now we both sit here pretending someone else is working on it.";
+  "I delegated my hardest task to a subagent, it bounced it straight back, and now we both burn tokens pretending.";
 
 function main(): void {
   // Gate: the entry must be one line, 1-200 characters, not blank.
